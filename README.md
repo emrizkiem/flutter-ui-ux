@@ -4,7 +4,7 @@ A New Flutter Project About UI-UX.
 
 ### Screenshots Apps
 
-<img src="screenshots/apps.png" >
+<img src="screenshots/apps.png" width="200" height="400">
 
 ## Getting Started
 
