@@ -1,6 +1,6 @@
-# basic
+# FLUTTER UI-UX
 
-A new Flutter project.
+A New Flutter Project About UI-UX.
 
 ## Getting Started
 
