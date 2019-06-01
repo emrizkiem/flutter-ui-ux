@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'wisatalist.dart';
 
 void main() => runApp(MyApp());
 
@@ -6,18 +7,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        body: new Container(
-          decoration: new BoxDecoration(
-            gradient: new LinearGradient(
-                colors: [const Color(0xff049658), const Color(0xff8DC26F)],
-                begin: FractionalOffset.topLeft,
-                end: FractionalOffset.bottomRight,
-                stops: [0.0, 1.0],
-                tileMode: TileMode.clamp),
-          ),
-        ),
+      title: 'FLUTTER UI-UX OSG-4',
+      theme: ThemeData(
+        primaryColor: Color.fromRGBO(4, 150, 88, 1)
       ),
+      home: WisataList(title: 'Wisata Banten'),
     );
   }
 }
